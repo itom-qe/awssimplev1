@@ -19,7 +19,8 @@ variable "ami" {
 }
 variable "instance_type" {
   type    = string
-  default = "t2.micro"
+  #default = "t2.micro"
+  default = "t2.large"
 }
 resource "aws_vpc" "vpcByTFE" {
   cidr_block  = "10.0.0.0/16"
