@@ -13,11 +13,11 @@ variable "first_account_id" {
 variable "region" {
   type  = string
 }
-variable "ami23" {
+variable "ami" {
   type    = string
   default = "ami-0ec6517f6edbf8044"
 }
-variable "instance_type1" {
+variable "instance_type" {
   type    = string
   default = "t2.micro"
 }
