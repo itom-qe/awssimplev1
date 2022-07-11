@@ -13,7 +13,7 @@ variable "first_account_id" {
 variable "region" {
   type  = string
 }
-variable "ami" {
+variable "ami23" {
   type    = string
   default = "ami-0ec6517f6edbf8044"
 }
